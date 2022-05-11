@@ -1,8 +1,8 @@
-from pyparsing import NoMatch
-
-
 datosPersonales = dict(nombre = 'Juan',edad = 25, direccion ='Av 20 1518')
 print(datosPersonales)
+#copy, copia los archivos
+diccionario2 = datosPersonales.copy()
+print(diccionario2)
 # método clear, borra todo el diccionario
 datosPersonales.clear()
 print(datosPersonales)
