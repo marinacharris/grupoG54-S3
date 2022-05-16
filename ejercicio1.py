@@ -4,6 +4,9 @@
 # El programa debe permitir cargar datos al diccionario, debe mostrar 
 # un listado completo del diccionario y debe permitir consultar un producto 
 # por su llave.
+def prueba():
+    pass
+
 def crear(productos):
     codigo = int(input('Ingrese el codigo del producto\n'))
     nombre = input('Ingrese el nombre del producto\n')
